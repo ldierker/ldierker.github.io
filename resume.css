@@ -1,0 +1,39 @@
+/*stylesheet for resume file */
+body {
+
+	background-color: #f9fafb;
+	font-family: Helvetica;
+	color: #1b1c1d;
+	margin: 2;
+	padding: 2;
+}
+
+h2 {
+	color: #516e8a;
+}
+
+h3 {
+	color: #728fac;
+}
+
+.header{
+	background-color: #ffffff; 
+	text-align: center;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	border-top: 10 px solid #ffffff;
+	border-bottom: 10 px solid #ffffff;
+}
+
+.date {
+	font-style: italic;
+	font-size: 12;
+}
+
+.inner {
+	padding: 15px 15px 15px 15px;
+	display: inline-block;
+	width: 50%;
+}
+
