@@ -1,11 +1,11 @@
 /*stylesheet for resume file */
 body {
 
-	background-color: #f9fafb;
-	font-family: Helvetica;
+	background-color: #ffffff; 
+	font-family: "Helvetica";
 	color: #1b1c1d;
-	/*margin: 0;
-	padding: 0;*/
+	margin: 0em;
+	padding: 0em ;
 }
 
 h2 {
@@ -16,24 +16,44 @@ h3 {
 	color: #728fac;
 }
 
+.main {
+	margin: 2em;
+
+}
+
 .header{
-	background-color: #ffffff; 
+
+	background-color: #f9fafb;
 	text-align: center;
-	margin: 0;
-	padding: 10px 10px 10px 10px;
+	font-family: "Helvetica";
+	margin: 0em;
+	padding: 5em 5em 6em 5em;
 	position: relative;
 	border-top: 10 px solid #ffffff;
 	border-bottom: 10 px solid #ffffff;
 }
 
-.date {
-	font-style: italic;
-	font-size: 12;
+.header_name {
+	font-weight: lighter;
+	font-size: 3em;
+	letter-spacing: .2em;
 }
 
-.inner {
-	/*padding: 15px 15px 15px 15px;*/
-	float: left;
-	width: 50%;
+.header_info {
+	font-weight: lighter;
+	font-size: 1em;
+	color: #728fac;
+}
+
+.date {
+	font-style: italic;
+	color: #1b1c1d;
+}
+
+.inline_elements {
+	margin: .8em;
+	display: inline-block;
+	vertical-align: top;
+	width: 47%; 
 }
 
