@@ -45,16 +45,25 @@ h3 {
 	color: #728fac;
 }
 
-.date {
-	font-style: italic;
-	color: #1b1c1d;
-}
 
 .inline_elements {
 	margin: .8em;
 	display: inline-block;
 	vertical-align: top;
 	width: 47%; 
+}
+
+.item {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #728fac;
+}
+
+.date {
+	font-size: .8em;
+	font-style: italic;
+	color: #1b1c1d;
+	float: right;
 }
 
 .footer {
