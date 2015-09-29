@@ -10,10 +10,13 @@ body {
 
 h2 {
 	color: #516e8a;
+	font-weight: lighter;
+	letter-spacing: .1em;
 }
 
 h3 {
 	color: #728fac;
+	font-weight: lighter;
 }
 
 .main {
@@ -21,6 +24,7 @@ h3 {
 
 }
 
+/*header rules*/
 .header{
 
 	background-color: #f9fafb;
@@ -53,11 +57,7 @@ h3 {
 	width: 47%; 
 }
 
-.item {
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #728fac;
-}
+
 
 .date {
 	font-size: .8em;
@@ -72,3 +72,29 @@ h3 {
 	margin: 0em;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 28em;
+	text-align: center;
+}
+
+.links {
+	float: center;
+}
+
+a {
+	text-align: center;
+	font-weight: lighter;
+	color:  #1b1c1d;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #516e8a;
+}
+
+a:hover {
+	text-decoration: underline;
+}
