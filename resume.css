@@ -57,6 +57,13 @@ h3 {
 	width: 47%; 
 }
 
+/*covers iphone 4 to iphone 6+ */
+@media screen and (min-device-width: 320px) and (max-device-width: 736px){
+  .inline_elements {
+    display: block;
+    width: 98%;
+  }
+}
 
 
 .date {
