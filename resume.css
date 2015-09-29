@@ -1,4 +1,6 @@
 /*stylesheet for resume file */
+
+
 body {
 
 	background-color: #ffffff; 
@@ -70,6 +72,8 @@ h3 {
 .footer {
 	background-color: #f9fafb;
 	margin: 0em;
+	height: 5em;
+	vertical-align: text-bottom;
 }
 
 .center {
@@ -97,4 +101,11 @@ a:visited {
 
 a:hover {
 	text-decoration: underline;
+}
+
+.bio {
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 1.5em;
+	text-align: justify;
 }
