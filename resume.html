@@ -6,14 +6,47 @@
 	<title>Resume</title>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<link href = "resume.css" rel = "stylesheet" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link href = "navbar.css" rel = "stylesheet" />
 </head>
 
-<body>
+<body class="wrapper">
 
-	<div class = "header">
-		<div class = "header_name">LAUREN M DIERKER</div>
-		<div class = "header_info">Computer Science Major &middot; Tufts University &middot; lauren.dierker@tufts.edu </div>
-	</div>
+	<!-- Static navbar -->
+      <nav class="navbar navbar-default nav_bar_extended">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">L.M.D.</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class = "nav-bar-text"><a href="index.html">HOME</a></li>
+              <li class = "nav-bar-text"><a href="bio.html">BIO</a></li>
+              <li class = "nav-bar-text active"><a href="resume.html">RESUME</a></li>
+              <li class = "nav-bar-text"><a href="resume.html">CONTACT ME</a></li>
+              <li class="dropdown nav-bar-text">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li ><a href="#">ALL</a></li>
+                  <li><a href="#">INTUNE</a></li>
+                  <li><a href="#">MISMATCH</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 
 	<div class = "main">
 	<h2>Education</h2>

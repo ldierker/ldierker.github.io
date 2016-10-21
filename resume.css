@@ -1,5 +1,7 @@
 /*stylesheet for resume file */
 
+@import url("raleway.css");
+
 
 body {
 
@@ -8,6 +10,8 @@ body {
 	color: #1b1c1d;
 	margin: 0em;
 	padding: 0em ;
+	background-image: url("background-img-1.jpg");
+	background-size: 100%;
 }
 
 h2 {
@@ -29,24 +33,28 @@ h3 {
 /*header rules*/
 .header{
 
-	background-color: #f9fafb;
+	/*background-color: #f9fafb;*/
+	/*background-color: rgba(61, 61, 61, 1);*/
 	text-align: center;
-	font-family: "Helvetica";
+	font-family: "Raleway";
 	margin: 0em;
 	padding: 5em 5em 6em 5em;
 	position: relative;
 }
 
 .header_name {
-	font-weight: lighter;
-	font-size: 3em;
+	font-weight: bold;
+	font-size: 5em;
 	letter-spacing: .2em;
+	color: #ccdfcb;;
 }
 
 .header_info {
-	font-weight: lighter;
+	font-family: "Times New Roman";
+	font-weight: normal;
+	font-style: italic;
 	font-size: 1em;
-	color: #728fac;
+	color: #ecf0f1;
 }
 
 
@@ -75,10 +83,13 @@ h3 {
 }
 
 .footer {
-	background-color: #f9fafb;
+	background-color: rgba(61, 61, 61, 1);
 	margin: 0em;
-	height: 5em;
+	height: 3em;
 	vertical-align: text-bottom;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
 }
 
 .center {
@@ -110,4 +121,13 @@ a:hover {
 	margin-right: 20%;
 	line-height: 1.5em;
 	text-align: justify;
+}
+
+.navbar {
+
+}
+
+.wrapper {
+	color: #ecf0f1;
+	border-color: rgba(61, 61, 61, 1);
 }
